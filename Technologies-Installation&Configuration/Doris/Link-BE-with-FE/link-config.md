@@ -2,11 +2,11 @@
 
 This guide documents the steps to link Apache Doris Backend nodes with the Frontend.
 
-## 1. Connect to Frontend (on VM3)
+## 1. Connect to Frontend (on VM4)
 
 Connect to the Frontend using MySQL client:
 ```bash
-mysql -h 127.0.0.1 -P 9030 -uroot
+mysql -h 10.0.10.7 -P 9030 -uroot
 ```
 
 ## 2. Add Backend Nodes

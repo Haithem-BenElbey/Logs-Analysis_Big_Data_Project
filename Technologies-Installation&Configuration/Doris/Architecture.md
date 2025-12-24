@@ -8,7 +8,7 @@ The cluster consists of **1 Frontend (FE)** and **2 Backends (BE)**:
 ```
                 +-------------------+
                 |  Frontend (FE)    |
-                |  VM3 / 10.0.10.6  |
+                |  VM4 / 10.0.10.7  |
                 |  Port: 8030, 9030 |
                 +-------------------+
                          |

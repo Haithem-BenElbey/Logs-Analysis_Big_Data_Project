@@ -1,8 +1,8 @@
 # Apache Doris Frontend Installation and Configuration
 
-This guide documents the installation and configuration of Apache Doris 3.0.1 Frontend on a virtual machine (VM3).
+This guide documents the installation and configuration of Apache Doris 3.0.1 Frontend on a virtual machine (VM4).
 
-## 0. Prerequisites (VM3)
+## 0. Prerequisites (VM4)
 
 ### 0.1 System Update
 ```bash
@@ -131,7 +131,7 @@ sudo apt update && sudo apt install -y mariadb-client
 
 **Connect to Frontend:**
 ```bash
-mysql -h 127.0.0.1 -P 9030 -uroot
+mysql -h 10.0.10.7 -P 9030 -uroot
 ```
 
 **Verify Frontends:**
