@@ -2,7 +2,7 @@
 
 ## Prérequis
 - 3 machines virtuelles : vm1, vm2, vm3
-- Fichiers d'installation : `jdk-8u92-linux-x64.tar.gz` et `apache-zookeeper-3.8.5-bin.tar.gz`
+- Fichiers d'installation : `jdk-11.0.29_linux-x64_bin.tar.gz` et `apache-zookeeper-3.8.5-bin.tar.gz`
 
 ---
 
@@ -11,7 +11,7 @@
 Sur **chaque VM (vm1, vm2, vm3)** :
 ```bash
 cd ~
-tar -xzvf jdk-8u92-linux-x64.tar.gz
+tar -xzvf jdk-11.0.29_linux-x64_bin.tar.gz
 tar -xzvf apache-zookeeper-3.8.5-bin.tar.gz
 mv apache-zookeeper-3.8.5-bin zookeeper
 ```

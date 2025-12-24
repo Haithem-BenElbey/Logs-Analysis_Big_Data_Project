@@ -1,7 +1,7 @@
 # Installation et Configuration d'un Cluster Kafka
 
 ## A/ Prérequis
-- JDK 8 compatible avec version Kafka < 4.0
+- JDK 11
 - Zookeeper
 
 ## B/ Installation et Configuration Kafka sur tous les brokers
