@@ -7,7 +7,11 @@
 cd $FLINK_HOME/lib
 
 # Download Flink Kafka Connector 3.3.0 (compatible with Kafka 3.9.1 and Flink 1.20.3)
-wget https://repo1.maven.org/maven2/org/apache/flink/flink-connector-kafka_2.12/1.20.0/flink-connector-kafka_2.12-1.20.0.jar
+wget https://repo1.maven.org/maven2/org/apache/flink/flink-connector-kafka/3.4.0-1.20/flink-connector-kafka-3.4.0-1.20.jar
+
+# Download kafka-clients.jar
+wget https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/3.4.0/kafka-clients-3.4.0.jar
+
 ```
 
 ### 1.2 Copy to TaskManager (vm3)
