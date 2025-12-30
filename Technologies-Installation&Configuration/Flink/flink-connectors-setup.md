@@ -14,7 +14,7 @@ wget https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/3.4.0/kafka-c
 
 ```
 
-### 1.2 Copy to TaskManager (vm3)
+### 1.2 Copy to TaskManager (vm2, vm3)
 ```bash
 scp flink-connector-kafka-3.3.0-1.19.jar haithem@vm3:$FLINK_HOME/lib/
 ```
@@ -32,7 +32,7 @@ wget https://repo1.maven.org/maven2/org/apache/flink/flink-connector-jdbc/3.2.0-
 wget wget https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar
 ```
 
-### 2.2 Copy to TaskManager (vm3)
+### 2.2 Copy to TaskManager (vm2, vm3)
 ```bash
 scp flink-connector-jdbc-3.2.0-1.19.jar haithem@vm3:$FLINK_HOME/lib/
 scp mysql-connector-j-8.0.33.jar haithem@vm3:$FLINK_HOME/lib/

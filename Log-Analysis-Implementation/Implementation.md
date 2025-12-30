@@ -136,7 +136,7 @@ python3 log_generator.py
 
 **Expected behavior:**
 - ✅ Logs appear in Python output
-- ✅ Messages arrive in Kafka consumer 🎉
+- ✅ Messages arrive in Kafka consumer 
 
 ### Test Other Topics
 ```bash
